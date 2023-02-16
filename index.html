@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Mi tienda de tenis</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <div class="products">
+        <div class="product">
+          <h3>Tenis 1</h3>
+          <p>Precio: $100.00</p>
+          <button data-name="Tenis 1" data-price="100">Agregar al carrito</button>
+        </div>
+        <div class="product">
+          <h3>Tenis 2</h3>
+          <p>Precio: $120.00</p>
+          <button data-name="Tenis 2" data-price="120">Agregar al carrito</button>
+        </div>
+        <div class="product">
+          <h3>Tenis 3</h3>
+          <p>Precio: $80.00</p>
+          <button data-name="Tenis 3" data-price="80">Agregar al carrito</button>
+        </div>
+        <!-- Agregar más productos aquí -->
+      </div>
+    </div>
+    <table>
+        <thead>
+          <tr>
+            <th>Producto</th>
+            <th>Precio</th>
+            <th>Acción</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+        <tfoot>
+          <tr>
+            <td>Total</td>
+            <td id="total"></td>
+            <td><button id="checkout">Comprar</button></td>
+          </tr>
+        </tfoot>
+      </table>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
